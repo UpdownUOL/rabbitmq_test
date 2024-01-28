@@ -12,8 +12,6 @@ class TestEndpoint(object):
         return a + b
 
 
-
-
 rabbitmq_admin ="admin"
 rabbitmq_password ="admin123"
 
@@ -30,6 +28,7 @@ try:
     while True:
         time.sleep(1)
 except KeyboardInterrupt:
+    print("")
     print("Stopping server")
 
 server.stop()

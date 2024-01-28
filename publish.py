@@ -12,8 +12,6 @@ class TestEndpoint(object):
         return a + b
 
 
-
-
 rabbitmq_admin ="admin"
 rabbitmq_password ="admin123"
 

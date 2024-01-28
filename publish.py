@@ -11,6 +11,9 @@ class TestEndpoint(object):
         print("receive client access")
         return a + b
 
+
+
+
 rabbitmq_admin ="admin"
 rabbitmq_password ="admin123"
 
